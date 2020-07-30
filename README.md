@@ -1,8 +1,5 @@
 ### Hi there 👋
 
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on CRNT.jl a suit of functions to study reaction networks.
 - 🌱 I’m currently learning CRNT :)
 - 👯 I’m looking to collaborate on many things, ask me about it!
