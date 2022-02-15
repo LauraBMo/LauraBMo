@@ -19,4 +19,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: she/her
 -->
 
-![LauraBMo's Github stats](https://github-readme-stats.vercel.app/api?username=LauraBMo&show_icons=true&theme=dark&line_height=27&count_private=true&include_all_commits=true)
+![LauraBMo's Github stats](https://github-readme-stats.vercel.app/api?username=LauraBMo&show_icons=true&theme=solarized-dark&line_height=27&count_private=true&include_all_commits=true)
