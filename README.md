@@ -21,4 +21,4 @@ Here are some ideas to get you started:
 
 ![LauraBMo's Github stats](https://github-readme-stats.vercel.app/api?username=LauraBMo&show_icons=true&theme=solarized-dark&line_height=27&count_private=true&include_all_commits=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LauraBMo&hide="Emacs Lisp"&exclude_repo=.doom.d,scihub.el,julia-jasnippets&theme=solarized-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LauraBMo&hide=lisp,elips,emacslips,EmacsLisp&exclude_repo=.doom.d,scihub.el,julia-jasnippets&theme=solarized-dark)](https://github.com/anuraghazra/github-readme-stats)
