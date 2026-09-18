@@ -19,5 +19,5 @@ surface.
 
 → [papers, preprints and talks](https://laurabmo.com/research)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LauraBMo&hide=EmacsLisp&exclude_repo=.doom.d,.emacs.d,scihub.el,julia-jasnippets&theme=tokyonight&langs_count=8)
+![Top languages](https://gh-stats.com/api/top-langs/?username=LauraBMo)
 ![GitHub streak](https://streak-stats.demolab.com/?user=LauraBMo&theme=tokyonight&hide_border=true)
