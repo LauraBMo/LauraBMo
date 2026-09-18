@@ -1,0 +1,43 @@
+name: Update README cards
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "17 4 * * *" # daily, 04:17 UTC — deliberately off the :00 mark
+  workflow_dispatch:
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # required to commit the generated SVG back
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Prepare output directory
+        run: mkdir -p profile
+
+      - name: Generate top-languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          # Non-fork repos owned by the account only — the action's fetcher
+          # passes `ownerAffiliations: OWNER, isFork: false` to the GitHub API.
+          # Emacs Lisp is .emacs.d/.doom.d; TeX is the website and old papers.
+          # Neither says anything about what I write code in — Julia does.
+          options: username=${{ github.repository_owner }}&hide=EmacsLisp,TeX&langs_count=6&theme=tokyonight
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Fail loudly rather than commit a "Something went wrong" error card.
+          fail_on_error: "true"
+
+      # GITHUB_TOKEN pushes don't re-trigger workflows, so this cannot loop.
+      - name: Commit the card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --staged --quiet || git commit -m "Update README cards"
+          git push

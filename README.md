@@ -19,5 +19,5 @@ surface.
 
 → [papers, preprints and talks](https://laurabmo.com/research)
 
-![Top languages](https://gh-stats.com/api/top-langs/?username=LauraBMo)
+![Top languages](./profile/top-langs.svg)
 ![GitHub streak](https://streak-stats.demolab.com/?user=LauraBMo&theme=tokyonight&hide_border=true)
