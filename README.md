@@ -1,25 +1,23 @@
-### Hi there 👋
+# Hi, I'm Laura 👋
 
-<!--
-- 🔭 I’m currently working on CRNT.jl a suit of functions to study reaction networks.
-- 🌱 I’m currently learning CRNT :)
-- 👯 I’m looking to collaborate on many things, ask me about it!
-- 📫 How to reach me: brust at math dot ku dot dk
-- 😄 Pronouns: she/her
+I write Julia packages for algebraic geometry and symbolic computation — Möbius
+transformations, roots of unity, and exact arithmetic with Nemo and Calcium.
 
-**LauraBMo/LauraBMo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Laura Brustenga i Moncusí** · she/her<br>
+[laurabmo.com](https://laurabmo.com)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on CRNT.jl a suit of functions to study reaction networks.
-- 🌱 I’m currently learning CRNT :)
-- 👯 I’m looking to collaborate on many things, ask me about it!
-- 🤔 I’m looking for help with a function to convert polynomilas between DynamicalPolynomials.jl and AbstractAlgebra.jl
-- 📫 How to reach me: brust at math dot ku dot dk
-- 😄 Pronouns: she/her
--->
+## Research
 
-![LauraBMo's Github stats](https://github-readme-stats.vercel.app/api?username=LauraBMo&show_icons=true&theme=tokyonight&line_height=27&count_private=true&include_all_commits=true)
+PhD in algebraic geometry at the Universitat Autònoma de Barcelona, then a postdoc with
+the reaction networks group at the University of Copenhagen, and a visiting term at TU
+Berlin funded by the Einstein Foundation's *Nonlinear Algebra* project. Five papers on
+toric dynamical systems, the Waring rank of binary binomial forms, inverting
+catalecticants of ternary quartics, and the degree of the linear orbit of a cubic
+surface.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LauraBMo&hide=lisp,elips,emacslips,EmacsLisp&exclude_repo=.doom.d,scihub.el,julia-jasnippets,.emacs.d&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+→ [papers, preprints and talks](https://laurabmo.com/research)
 
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LauraBMo&hide=EmacsLisp&exclude_repo=.doom.d,.emacs.d,scihub.el,julia-jasnippets&theme=tokyonight&langs_count=8)
+![GitHub streak](https://streak-stats.demolab.com/?user=LauraBMo&theme=tokyonight&hide_border=true)
