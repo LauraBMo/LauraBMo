@@ -23,11 +23,17 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          # Non-fork repos owned by the account only — the action's fetcher
-          # passes `ownerAffiliations: OWNER, isFork: false` to the GitHub API.
-          # Emacs Lisp is .emacs.d/.doom.d; TeX is the website and old papers.
-          # Neither says anything about what I write code in — Julia does.
-          options: username=${{ github.repository_owner }}&hide=EmacsLisp,TeX&langs_count=6&theme=tokyonight
+          # Non-fork repos owned by the account only — the fetcher passes
+          # `ownerAffiliations: OWNER, isFork: false` to the GitHub API.
+          #
+          # Exclude repos by NAME, not language: the renderer matches `hide`
+          # against the trimmed lowercase language name, so "EmacsLisp"
+          # normalises to "emacslisp" and silently never matches the API's
+          # "Emacs Lisp". Repo names come straight from the API and can't drift.
+          # (Also note the percentages are shares of the rows displayed, not of
+          # the whole corpus — with the config files excluded there is no single
+          # language left large enough to distort the chart.)
+          options: username=${{ github.repository_owner }}&exclude_repo=.emacs.d,.doom.d&hide=TeX&langs_count=6&theme=tokyonight
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           # Fail loudly rather than commit a "Something went wrong" error card.
