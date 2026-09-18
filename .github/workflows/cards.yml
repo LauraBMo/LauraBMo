@@ -33,7 +33,7 @@ jobs:
           # (Also note the percentages are shares of the rows displayed, not of
           # the whole corpus — with the config files excluded there is no single
           # language left large enough to distort the chart.)
-          options: username=${{ github.repository_owner }}&exclude_repo=.emacs.d,.doom.d&hide=TeX&langs_count=6&theme=tokyonight
+          options: username=${{ github.repository_owner }}&exclude_repo=.emacs.d&hide=TeX&langs_count=6&theme=tokyonight
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           # Fail loudly rather than commit a "Something went wrong" error card.
